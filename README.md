@@ -6,6 +6,5 @@ File path:
 ```
 
 - evil
-- eim
 - ein
 - grammaly
