@@ -1,2 +1,11 @@
-# emacs.d_local
+# init-local
 With Purcell's config
+File path:
+```
+~/.emacs.d/lisp/init-local.el
+```
+
+- evil
+- eim
+- ein
+- grammaly
