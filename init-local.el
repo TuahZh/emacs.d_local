@@ -3,6 +3,10 @@
 ;; paste insideout
 (setq x-select-enable-clipboard t)
 
+;; split vertically
+(setq split-width-threshold 0)
+(setq split-height-threshold nil)
+
 ;; for org-mode wrap words
 (add-hook 'org-mode-hook (lambda () (setq truncate-lines nil)))
 
