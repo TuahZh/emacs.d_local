@@ -30,4 +30,16 @@
 
 (electric-indent-mode 1)
 
+                                        ; Grammarly
+                                        ; Works only on Mac with grammarly installed
+
+(unwind-protect
+    (let ((debug-on-error nil))
+      (with-demoted-errors
+          (message "Try to load grammarly scripts")
+        (load-file "~/.emacs.d/lisp/grammarly/emacs-grammarly.el")
+        (global-set-key (kbd "C-c C-g") 'grammarly-save-region-and-run)
+        (message "Grammarly load.")))
+  (message "All done!"))
+
 (provide 'init-local)

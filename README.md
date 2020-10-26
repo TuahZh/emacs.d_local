@@ -7,4 +7,9 @@ File path:
 
 - evil
 - ein
-- grammaly
+- grammarly
+  - work only on MacOS with grammarly installed
+  - additional file in 
+  ```
+  ~/.emacs.d/lisp/grammarly/emacs-grammarly.el
+  ```
