@@ -1,3 +1,5 @@
+;; theme
+(load-theme 'sanityinc-solarized-light)
 ;; paste insideout
 (setq x-select-enable-clipboard t)
 
